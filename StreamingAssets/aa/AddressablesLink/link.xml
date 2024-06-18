@@ -1,0 +1,161 @@
+<linker>
+  <assembly fullname="game.backend, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.Backend.BackendConfigurationAsset" preserve="all" />
+    <type fullname="Game.Backend.BackendSource" preserve="all" />
+    <type fullname="Game.Backend.BackendSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="game.runtime.selectedScreen, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.Runtime.SelectedScreen.SelectedScreenFeature" preserve="all" />
+  </assembly>
+  <assembly fullname="game.runtime.services.bootstrap, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.Runtime.Services.Bootstrap.GameBootSettings" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.deadBoss, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.DeadBoss.Views.DeadBossView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.fight, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.Fight.FightUIFeature" preserve="all" />
+    <type fullname="Game.UI.Rank.Views.FightView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.friends, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.Friends.Views.FriendsView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.guildCreate, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.GuildCreate.Views.GuildCreateView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.guildJoin, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.GuildJoin.Views.GuildJoinView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.rank, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.Rating.Views.RatingView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.rule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.Rule.Views.RuleView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.tasks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.Rule.Views.TasksView" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.wellcome, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.Welcome.Views.WelcomeView" preserve="all" />
+    <type fullname="Game.UI.Welcome.WelcomeUIFeature" preserve="all" />
+  </assembly>
+  <assembly fullname="game.ui.yourGuild, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.UI.YourGuild.Views.YourGuildView" preserve="all" />
+  </assembly>
+  <assembly fullname="unigame.leoecs.bootstrap.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsFeaturesConfiguration" preserve="all" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsUpdateMapAsset" preserve="all" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.LeoEcsServiceSource" preserve="all" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.EcsWorldConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.GizmosUpdateProvider" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsConfigGroup" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsFeatureData" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsSystemsGroupConfiguration" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsUniTaskUpdateProvider" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.LeoEcs.Bootstrap.Runtime.Config.LeoEcsUpdateQueue" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="unigame.leoecs.converter.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UniGame.LeoEcs.Converter.Runtime.LeoEcsMonoConverter" preserve="all" />
+  </assembly>
+  <assembly fullname="UniGame.LeoEcs.Shared.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Game.Ecs.Core.CoreFeature" preserve="all" />
+    <type fullname="Game.Ecs.Core.Timer.TimerFeature" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="unigame.leoecs.viewsystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UniGame.LeoEcs.ViewSystem.ViewSystemFeature" preserve="all" />
+    <type fullname="UniGame.LeoEcs.ViewSystem.Converters.EcsViewSettings" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="unigame.serializablecontext.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UniGame.Context.Runtime.DataSources.AsyncDataSources" preserve="all" />
+    <type fullname="UniGame.Context.Runtime.DataSources.AsyncSourceDescription" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="unigame.unicore.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UniModules.UniCore.Runtime.Components.Immortal" preserve="all" />
+    <type fullname="UniGame.Core.Runtime.SerializableType.SType" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="unigame.viewsystem.runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UniGame.UiSystem.Runtime.GameViewSystemAsset" preserve="all" />
+    <type fullname="UniGame.UiSystem.Runtime.Settings.ViewSystemSettings" preserve="all" />
+    <type fullname="UniGame.UiSystem.Runtime.ViewsFlow.ViewFlowControllerAsset" preserve="all" />
+    <type fullname="UniGame.UiSystem.Runtime.WindowStackControllers.MonoViewsLayout" preserve="all" />
+    <type fullname="UniGame.ViewSystem.Runtime.DataSources.ViewSystemSource" preserve="all" />
+    <type fullname="UniModules.UniGame.UISystem.Runtime.WindowStackControllers.StackViewLayoutAsset" preserve="all" />
+    <type fullname="UniGame.ViewSystem.Runtime.Animations.SimpleFadeViewAnimation" preserve="nothing" serialized="true" />
+    <type fullname="UniModules.UniGame.UISystem.Runtime.ViewStatus" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.UiSystem.Runtime.Settings.UiViewReference" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.UiSystem.Runtime.StackViewLayout" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.UiSystem.Runtime.ViewLayoutMap" preserve="nothing" serialized="true" />
+    <type fullname="UniGame.ViewSystem.Runtime.ViewModelResolver" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceGameObject" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.AddressableAssets.AssetReferenceT`1" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.Mask" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="unigame.contextdata.runtime">
+    <type fullname="UniGame.Context.Runtime.AssetReferenceDataSource" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="unigame.rx.runtime">
+    <type fullname="UniModules.UniGame.Core.Runtime.Rx.BoolReactiveValue" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.LowLevel.GlyphValueRecord" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>
